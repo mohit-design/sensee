@@ -1,0 +1,156 @@
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+html,
+body { overflow-x: hidden; }
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.flex-align-end { align-items: flex-end; display: flex; }
+.btn-proj { background-color: #fc7265; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; color: #fff; display: inline-block; font-size: 2.4rem; padding: 30px 70px; text-align: center; }
+.btn-proj:hover,
+.btn-proj:focus { color: #fff; }
+.form-control:focus { background-color: #fff; border-color: #fc7265; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; box-shadow: none; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { background-color: #fff; left: 0; padding: 30px; position: fixed; top: 0; width: 100%; z-index: 10; }
+.header-logo-desktop > a { display: inline-block; }
+.header-logo-desktop > a > img { width: 170px; }
+.header-listing-desktop > li { display: inline-block; margin-right: 15px; }
+.header-listing-desktop > li:last-child { margin-right: 0; }
+.header-listing-desktop > li > a { color: #000; font-size: 1.8rem; }
+.header-listing-desktop > li > span { color: #000; }
+.header-listing-desktop > li:last-child > a { background-color: #fc7265; border: 1px solid #fc7265; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; color: #fff; display: inline-block; font-size: 1.8rem; padding: 8px 25px; text-align: center; }
+.header-listing-desktop > li.active > a,
+.header-listing-desktop > li > a:hover { color: #fc7265; }
+.header-listing-desktop > li:last-child > a:hover { background-color: #fff; }
+
+/*------- Desktop Header Section Ends -------*/
+
+/*------- Banner Section Starts -------*/
+
+.bg-banner { background: url("../images/banner.png") no-repeat top/cover; height: 100vh; margin-top: 107px; padding: 30px 0; }
+.banner-info { left: 50%; position: absolute; top: 40%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.banner-info > h1 { color: #000; font-size: 3.6rem; margin-bottom: 30px; text-align: center; }
+.banner-info > h1 > span:first-child { color: #fc7265; }
+.banner-info > h1 > span:last-child { display: block; }
+.banner-info > p { color: #000; font-size: 1.8rem; margin-bottom: 30px; text-align: center; }
+.input-group-search { margin: 0 auto; position: relative; width: 75%; }
+.form-control-search { background-color: #f3f3f3; border: 1px solid #f3f3f3; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; box-shadow: none; font-size: 1.8rem; height: 50px; padding: 6px 20px; position: relative; }
+.input-group .form-control:first-child { border-bottom-right-radius: 50px; border-top-right-radius: 50px; }
+.search-icon-circle { background-color: #fc7265; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 40px; line-height: 40px; right: 7px; position: absolute; text-align: center; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); width: 40px; z-index: 9; }
+.search-icon-circle > i { color: #fff; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
+
+/*------- Banner Section Ends -------*/
+
+/*------- Buyers Section Starts -------*/
+
+.bg-buyers { padding: 100px 15px; }
+.whats-sensee-ihd > h2 { align-items: flex-end; color: #000; display: flex; font-size: 3rem; line-height: 1.2; justify-content: center; margin-bottom: 15px; }
+.whats-sensee-ihd > h2 > img { padding-left: 15px; }
+.whats-sensee-ihd > p { color: #999; font-size: 1.8rem; margin-bottom: 100px; text-align: center; }
+.buyers-hd > h4,
+.sellers-hd > h4 { color: #fc5c65; font-size: 1.8rem; margin-bottom: 15px; padding-left: 65px; position: relative; }
+.sellers-hd > h4 { color: #00b5c2; }
+.buyers-hd > h4::before,
+.sellers-hd > h4::before { background-color: #fc5c65; content: ""; height: 1px; left: 0; margin-top: -1px; position: absolute; top: 50%; width: 50px; }
+.sellers-hd > h4::before { background-color: #00b5c2; }
+.buyers-sellers-hd > h2 { color: #000; font-size: 3rem; line-height: 1.5; margin-bottom: 30px; }
+.buyers-sellers-hd > h2 > span { display: block; }
+.buyers-sellers-hd > p { color: #000; font-size: 1.8rem; }
+.sellers-hd > p:last-child { color: #7e7e7e; }
+.img-buyers-sellers { margin: 0 auto; }
+
+/*------- Buyers Section Ends -------*/
+
+/*------- Sellers Section Starts -------*/
+
+.bg-sellers { background-color: #f4f5f7; padding: 100px 15px; }
+
+/*------- Sellers Section Ends -------*/
+
+/*------- Tag Section Starts -------*/
+
+.bg-tag { background-color: #fd5c65; padding: 50px 15px; }
+.tag-heading > h4 { color: #fff; font-size: 1.8rem; margin-bottom: 10px; }
+.tag-heading > h2 { color: #fff; font-size: 3rem; margin-bottom: 50px; }
+.tag-listing > li { display: inline-block; margin: 0 15px 20px 0; }
+.tag-listing > li:last-child { margin: 0; }
+.tag-listing > li > a { border: 1px dotted #fff; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; color: #fff; display: block; font-size: 1.6rem; padding: 10px 25px; text-align: center; }
+.tag-listing > li > a:hover { background-color: #fff; color: #fd5c65; }
+
+/*------- Tag Section Ends -------*/
+
+/*------- SenSee Media Section Starts -------*/
+
+.bg-sensee-media { padding: 100px 15px; }
+.sensee-media-heading > h4 { color: #00b5c2; font-size: 1.8rem; margin-bottom: 10px; }
+.sensee-media-heading > h2 { color: #000; font-size: 3rem; margin-bottom: 50px; }
+.box-sensee-media-img { position: relative; }
+.box-sensee-media-img > img { margin-bottom: 15px; width: 100%; }
+.box-sensee-media-hd > p { color: #000; font-size: 1.8rem; margin-bottom: 15px; }
+.box-sensee-media-hd > p:last-child { margin-bottom: 0; }
+
+	/*------- Slick Slider CSS Starts -------*/
+
+.sensee-media-slider .slick-slide { padding: 0 15px; }
+.slick-prev { left: -50px; }
+.slick-next { right: -50px; }
+.slick-prev,
+.slick-next { background-color: #fc7265; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 50px; -webkit-transition: 0.3s linear; -moz-transition: 0.3s linear; -ms-transition: 0.3s linear; -o-transition: 0.3s linear; transition: 0.3s linear; width: 50px; z-index: 10; }
+.slick-prev::before,
+.slick-next::before { color: #ffffff; content: "\f053"; display: block; font-family: "Font Awesome 5 Free"; font-weight: 900; opacity: 1; -webkit-transition: 0.3s linear; -moz-transition: 0.3s linear; -ms-transition: 0.3s linear; -o-transition: 0.3s linear; transition: 0.3s linear; }
+.slick-prev:hover,
+.slick-next:hover { background-color: #fc7265; }
+.slick-next::before { content: "\f054"; }
+.slick-prev:hover::before { color: #ffffff; }
+
+	/*------- Slick Slider CSS Ends -------*/
+
+/*------- SenSee Media Section Ends -------*/
+
+/*------- Language Education Section Starts -------*/
+
+.bg-language-education { padding: 30px 15px 0; }
+.lang-education-heading > h2 { color: #000; font-size: 3rem; margin-bottom: 30px; }
+.lang-education-heading > h3 { color: #000; font-size: 2.4rem; margin-bottom: 30px; }
+
+/*------- Language Education Section Ends -------*/
+
+/*------- Footer Section Starts -------*/
+
+.bg-footer { background-color: #1c1414; padding: 50px 15px; }
+.footer-heading > h4 { color: #fff; font-size: 1.8rem; margin-bottom: 15px; }
+.footer-listing > li { display: block; margin-bottom: 5px; }
+.footer-listing > li:last-child { margin-bottom: 0; }
+.footer-listing > li > a { color: #fff; font-size: 1.8rem; }
+.footer-social-listing { margin-bottom: 100px; }
+.footer-social-listing > li { display: inline-block; margin-right: 15px; }
+.footer-social-listing > li:last-child { margin-right: 0; }
+.footer-ppd { margin-bottom: 5px; }
+.footer-ppd > li { display: inline-block; margin-right: 15px; }
+.footer-ppd > li:last-child { margin-right: 0; }
+.footer-ppd > li > a { color: #fff; font-size: 1.6rem; }
+.footer-ppd > li > span { color: #fff; padding: 0; }
+.copyright-info > p { color: #fff; font-size: 1.2rem; }
+.copyright-info > p > span { text-transform: uppercase; }
+
+/*------- Footer Section Ends -------*/
