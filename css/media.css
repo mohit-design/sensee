@@ -68,14 +68,17 @@
 .banner-info > h1 { font-size: 2.4rem; line-height: 1.4; padding: 0 60px; }
 .banner-info > p { font-size: 1.6rem; padding: 0 15px; }
 .input-group-search { width: 100%; }
-.banner-mobile { display: block; }
+.banner-mobile { display: block; position: relative; margin-top: -150px; z-index: -1; }
 
 	/*------- Banner Section Ends -------*/
 
 	/*------- Buyers Section Starts -------*/
 
 .bg-buyers,
+.bg-sellers { padding: 0 15px 50px; }
 .bg-sellers { padding: 50px 15px; }
+.whats-sensee-ihd { margin-top: -50px; }
+.whats-sensee-ihd > p { margin-bottom: 50px; }
 .buyers-sellers-hd > h2 { font-size: 2.4rem; }
 .buyers-sellers-hd > p { margin-bottom: 30px; text-align: justify; }
 

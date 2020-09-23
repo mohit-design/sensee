@@ -1,8 +1,14 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Hiragino-Sans-GB-W3"; src: url("../fonts/Hiragino-Sans-GB-W3.ttf"); }
+
+/*------- Font Family Ends -------*/
+
 /*------- Reset CSS Starts -------*/
 
 html { letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
 html,
-body { overflow-x: hidden; }
+body { overflow-x: hidden; font-family: "Hiragino-Sans-GB-W3"; }
 ul,
 h1,
 h2,
@@ -29,6 +35,18 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .form-control:focus { background-color: #fff; border-color: #fc7265; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; box-shadow: none; }
 
 /*------- Common CSS Ends -------*/
+
+/*------- Mobile Header Section Starts -------*/
+
+.bg-header-mobile { display: none; }
+
+/*------- Mobile Header Section Ends -------*/
+
+/*------- Mobile Fixed Navigationbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { display: none; }
+
+/*------- Mobile Fixed Navigationbar Menu Section Ends -------*/
 
 /*------- Desktop Header Section Starts -------*/
 
