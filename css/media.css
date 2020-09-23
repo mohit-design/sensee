@@ -1,0 +1,92 @@
+@media only screen and (max-width: 767px) {
+
+/*------- Home Page Starts -------*/
+
+	/*------- Common CSS Starts -------*/
+
+.display-block-mobile { display: block; }
+.btn-proj { font-size: 1.8rem; padding: 15px 40px; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+	/*------- Desktop Header Section Ends -------*/
+
+	/*------- How to Use Section Starts -------*/
+
+.bg-how-to-use { padding: 100px 15px 0; }
+.bg-how-to-use::after { height: calc(100% - 35px); }
+.get-strated-img > img { display: none; }
+.box-how-to-see { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; padding: 15px; top: 0; width: 75vw; }
+.box-how-to-see > h2 { font-size: 1.8rem; }
+.box-how-to-see > h2 > img { width: 100px; }
+.get-strated-content-img { margin-bottom: 50px; }
+.get-strated { text-align: center; }
+.get-strated > h2,
+.three-steps-bs > h2 { font-size: 2.4rem; }
+.get-strated > h3 { font-size: 1.8rem; }
+.box-steps { background-color: #fff; padding: 60px 10px 15px; }
+.buyers-slider-home .slick-slide,
+.sellers-slider-home .slick-slide { padding: 65px 15px; }
+.circle-step { left: 50%; top: -25%; transform: translateX(-50%); }
+.box-buyers-steps > p,
+.box-sellers-steps > p { font-size: 1.6rem; }
+.arrow-bs { right: -15px; }
+.arrow-bs > img:first-child { display: none; }
+.arrow-bs > img:last-child { display: block; width: 35px; }
+.new-registration-now > a { padding: 20px 25px; }
+.new-registration-now { position: relative; top: 35px; }
+
+	/*------- How to Use Section Ends -------*/
+
+	/*------- SenSee Media Section Starts -------*/
+
+.item-ranking-heading > h4,
+.sensee-media-heading > h4 { font-size: 1.6rem; }
+.item-ranking-heading > h2,
+.sensee-media-heading > h2 { font-size: 2.4rem; }
+
+		/*------- Slick Slider CSS Starts -------*/
+
+.sensee-media-slider .slick-slide { padding: 0 40px; }
+.slick-prev { left: 0; }
+.slick-next { right: 0; }
+.slick-prev,
+.slick-next { height: 30px; top: 30%; width: 30px; }
+.slick-next::before,
+.slick-prev::before { font-size: 1.4rem; }
+.box-sensee-media-hd > p { font-size: 1.6rem; }
+.play-icon-circle { height: 40px; width: 40px; }
+.play-icon-circle > i { font-size: 1.6rem; line-height: 40px; }
+
+		/*------- Slick Slider CSS Ends -------*/
+
+	/*------- SenSee Media Section Ends -------*/
+
+	/*------- Language Education Section Starts -------*/
+
+.lang-education-heading > h2 { font-size: 2.4rem; line-height: 1.7; margin-bottom: 15px; }
+.lang-education-heading > h3 { font-size: 1.8rem; margin-bottom: 30px; }
+.btn-proj-lang-edu-display { margin-bottom: 50px; }
+.lang-edu-img > img { margin: 0 auto; }
+.lang-edu-img-2 { display: none; }
+
+	/*------- Language Education Section Ends -------*/
+
+	/*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 50px 15px; }
+.footer-heading,
+.footer-listing,
+.footer-social-listing,
+.footer-ppd { display: none; }
+.copyright-info { text-align: center; }
+
+	/*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}

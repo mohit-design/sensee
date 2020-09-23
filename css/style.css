@@ -21,7 +21,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Common CSS Starts -------*/
 
-.flex-align-end { align-items: flex-end; display: flex; }
+.flex-align-end-desktop { align-items: flex-end; display: flex; }
 .btn-proj { background-color: #fc7265; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; color: #fff; display: inline-block; font-size: 2.4rem; padding: 30px 70px; text-align: center; }
 .btn-proj:hover,
 .btn-proj:focus { color: #fff; }
@@ -31,7 +31,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Desktop Header Section Starts -------*/
 
-.bg-header-desktop { background-color: #fff; left: 0; padding: 30px; position: fixed; top: 0; width: 100%; z-index: 10; }
+.bg-header-desktop { background-color: #fff; display: block; left: 0; padding: 30px; position: fixed; top: 0; width: 100%; z-index: 10; }
 .header-logo-desktop > a { display: inline-block; }
 .header-logo-desktop > a > img { width: 170px; }
 .header-listing-desktop > li { display: inline-block; margin-right: 15px; }
@@ -102,15 +102,18 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 /*------- Item Ranking Section Starts -------*/
 
 .bg-item-ranking { padding: 100px 15px; }
-.box-item-ranking-img { position: relative; }
+.box-item-ranking-img { overflow: hidden; position: relative; }
 .box-item-ranking-img > img { margin-bottom: 15px; width: 100%; }
-.item-ranking-label { background-color: #f00; height: 40px; position: absolute; right: 0; top: 0; width: 30px; }
-.item-ranking-label::before { bottom: 0; content: ""; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 15px solid #fff; position: absolute; width: 100%; }
-.item-ranking-label > p { color: #fff; line-height: 25px; text-align: center; }
+.item-ranking-label { background-color: #f00; clip-path: polygon(50% 0%, 100% 0, 100% 50%, 100% 100%, 50% 75%, 0 100%, 0 0); height: 40px; position: absolute; right: -1px; top: 0; width: 30px; }
+.item-ranking-label-1 { background-color: #e6b422; }
+.item-ranking-label-2 { background-color: #c0c0c0; }
+.item-ranking-label-3 { background-color: #815a2b; }
+.item-ranking-label-4 { background-color: #00b5c2; }
+.item-ranking-label > p { color: #fff; line-height: 30px; text-align: center; }
 .box-item-ranking-hd > h4 { color: #000; font-size: 1.8rem; line-height: 1.4; margin-bottom: 10px; }
 .box-item-ranking-hd > h4 > span { display: block; }
 .box-item-ranking-hd > h5 { color: #7e7e7e; font-size: 1.4rem; margin-bottom: 30px; }
-.ir-star-ratings > li { display: inline-block; margin-right: 5px; }
+.ir-star-ratings > li { display: inline-block; }
 .ir-star-ratings > li:last-child { margin-right: 0; }
 .ir-star-ratings > li > a { color: #fd5c65; }
 .item-ranking-pay > p { color: #000; font-size: 1.4rem; }
@@ -143,6 +146,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .circle-step > img { width: 100px; }
 .arrow-bs { position: absolute; right: -30%; top: 50%; transform: translateY(-50%); }
 .arrow-bs > img { width: 50px; }
+.arrow-bs > img:last-child { display: none; }
 .box-steps > img { margin: 0 auto 30px; }
 .box-buyers-steps > p,
 .box-sellers-steps > p { color: #fd5c65; font-size: 1.8rem; text-align: center; }
@@ -195,7 +199,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 /*------- Language Education Section Starts -------*/
 
 .bg-language-education { padding: 30px 15px 0; }
-.lang-education-heading > h2 { color: #000; font-size: 3rem; margin-bottom: 30px; }
+.lang-education-heading > h2 { color: #000; font-size: 3rem; line-height: 1.4; margin-bottom: 30px; }
 .lang-education-heading > h3 { color: #000; font-size: 2.4rem; margin-bottom: 30px; }
 
 /*------- Language Education Section Ends -------*/
