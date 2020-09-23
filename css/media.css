@@ -63,19 +63,20 @@
 
 	/*------- Banner Section Starts -------*/
 
-.bg-banner { background: none; margin-top: 80px; padding: 15px; }
+.bg-banner { background: none; height: auto; margin-top: 80px; padding: 15px; }
 .banner-info { position: static; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
 .banner-info > h1 { font-size: 2.4rem; line-height: 1.4; padding: 0 60px; }
 .banner-info > p { font-size: 1.6rem; padding: 0 15px; }
 .input-group-search { width: 100%; }
 .banner-mobile { display: block; position: relative; margin-top: -150px; z-index: -1; }
+.banner-mobile > img { width: 100%; }
 
 	/*------- Banner Section Ends -------*/
 
 	/*------- Buyers Section Starts -------*/
 
 .bg-buyers,
-.bg-sellers { padding: 0 15px 50px; }
+.bg-sellers { padding: 100px 15px 50px; }
 .bg-sellers { padding: 50px 15px; }
 .whats-sensee-ihd { margin-top: -50px; }
 .whats-sensee-ihd > p { margin-bottom: 50px; }
