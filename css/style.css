@@ -21,6 +21,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Common CSS Starts -------*/
 
+.flex-align-center-desktop { align-items: center; display: flex; }
 .flex-align-end-desktop { align-items: flex-end; display: flex; }
 .btn-proj { background-color: #fc7265; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; color: #fff; display: inline-block; font-size: 2.4rem; padding: 30px 70px; text-align: center; }
 .btn-proj:hover,
@@ -58,6 +59,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .input-group .form-control:first-child { border-bottom-right-radius: 50px; border-top-right-radius: 50px; }
 .search-icon-circle { background-color: #fc7265; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 40px; line-height: 40px; right: 7px; position: absolute; text-align: center; top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); width: 40px; z-index: 9; }
 .search-icon-circle > i { color: #fff; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); }
+.banner-mobile { display: none; }
 
 /*------- Banner Section Ends -------*/
 
