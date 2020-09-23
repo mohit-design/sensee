@@ -173,3 +173,81 @@
 /*------- Home Page Ends -------*/
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Home Page Starts -------*/
+
+	/*------- Common CSS Starts -------*/
+
+.btn-proj { padding: 20px 70px; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.banner-info { top: 50%; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- How to Use Section Starts -------*/
+
+.box-how-to-see { width: 45vw; }
+.get-strated-content-img { margin-top: 200px; }
+.get-strated > h2 { font-size: 3rem; }
+.three-steps-bs > h2 { font-size: 2.4rem; }
+.box-buyers-steps > p,
+.box-sellers-steps > p { font-size: 1.6rem; }
+.arrow-bs > img { display: none; }
+
+	/*------- How to Use Section Ends -------*/
+
+	/*------- SenSee Media Section Starts -------*/
+
+.slick-prev { left: -10px; top: 35%; }
+.slick-next { right: -10px; top: 35%; }
+
+	/*------- SenSee Media Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Home Page Starts -------*/
+
+	/*------- Common CSS Starts -------*/
+
+.btn-proj { padding: 20px 70px; }
+
+	/*------- Common CSS Ends -------*/
+
+	/*------- Banner Section Starts -------*/
+
+.banner-info { top: 50%; }
+
+	/*------- Banner Section Ends -------*/
+
+	/*------- How to Use Section Starts -------*/
+
+.box-how-to-see { width: 45vw; }
+.get-strated-content-img { margin-top: 200px; }
+.get-strated > h2 { font-size: 3rem; }
+.three-steps-bs > h2 { font-size: 2.4rem; }
+.box-buyers-steps > p,
+.box-sellers-steps > p { font-size: 1.6rem; }
+.arrow-bs > img { display: none; }
+
+	/*------- How to Use Section Ends -------*/
+
+	/*------- SenSee Media Section Starts -------*/
+
+.slick-prev { left: -10px; top: 35%; }
+.slick-next { right: -10px; top: 35%; }
+
+	/*------- SenSee Media Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}

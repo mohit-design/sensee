@@ -50,7 +50,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Desktop Header Section Starts -------*/
 
-.bg-header-desktop { background-color: #fff; display: block; left: 0; padding: 30px; position: fixed; top: 0; width: 100%; z-index: 10; }
+.bg-header-desktop { background-color: #fff; display: block; left: 0; padding: 30px; position: fixed; top: 0; width: 100%; z-index: 12; }
 .header-logo-desktop > a { display: inline-block; }
 .header-logo-desktop > a > img { width: 170px; }
 .header-listing-desktop > li { display: inline-block; margin-right: 15px; }
@@ -137,6 +137,9 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .ir-star-ratings > li:last-child { margin-right: 0; }
 .ir-star-ratings > li > a { color: #fd5c65; }
 .item-ranking-pay > p { color: #000; font-size: 1.4rem; }
+.btn-proj-item-ranking-display { margin-top: 100px; }
+.btn-proj-item-ranking { -webkit-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); -moz-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); -ms-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); -o-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); font-size: 1.8rem; padding: 25px 40px; }
+.btn-proj-item-ranking:hover { background-color: #00b5c2; }
 
 	/*------- Slick Slider CSS Starts -------*/
 
@@ -148,14 +151,14 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- How to Use Section Starts -------*/
 
-.bg-how-to-use { padding: 100px 15px; position: relative; z-index: 1; }
+.bg-how-to-use { padding: 0 15px 100px; position: relative; z-index: 1; }
 .bg-how-to-use::after { background-color: #f4f5f7; bottom: 0; content: ""; height: calc(100% - 220px); left: 0; position: absolute; width: 100%; z-index: -1; }
 .box-how-to-see { background-color: #fd5c65; -webkit-border-radius: 0 14px 14px 0; -moz-border-radius: 0 14px 14px 0; -ms-border-radius: 0 14px 14px 0; -o-border-radius: 0 14px 14px 0; border-radius: 0 14px 14px 0; left: 0; padding: 50px 15px; position: absolute; top: 145px; width: 35vw; }
 .box-how-to-see > h2 { align-items: center; color: #fff; font-size: 3rem; display: flex; justify-content: flex-end; }
 .box-how-to-see > h2 > img { margin-right: 10px; }
 .get-strated-content-img { margin-bottom: 100px; }
 .get-strated > h2 { color: #000; font-size: 4rem; margin-bottom: 15px; }
-.get-strated > h3 { color: #000; font-size: 2.4rem; }
+.get-strated > h3 { color: #000; font-size: 2.4rem; line-height: 1.5; }
 .three-steps-bs > h2 { color: #000; font-size: 3rem; margin-bottom: 50px; }
 .three-steps-buyers > h2 > span { color: #fd5c65; }
 .three-steps-sellers > h2 > span { color: #00b5c2; }
