@@ -94,7 +94,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .tag-heading > h2 { color: #fff; font-size: 3rem; margin-bottom: 50px; }
 .tag-listing > li { display: inline-block; margin: 0 15px 20px 0; }
 .tag-listing > li:last-child { margin: 0; }
-.tag-listing > li > a { border: 1px dotted #fff; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; color: #fff; display: block; font-size: 1.6rem; padding: 10px 25px; text-align: center; }
+.tag-listing > li > a { border: 1px dashed #fff; -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; color: #fff; display: block; font-size: 1.6rem; padding: 10px 25px; text-align: center; }
 .tag-listing > li > a:hover { background-color: #fff; color: #fd5c65; }
 
 /*------- Tag Section Ends -------*/

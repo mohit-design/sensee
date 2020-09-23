@@ -15,6 +15,28 @@
 
 	/*------- Desktop Header Section Ends -------*/
 
+	/*------- Buyers Section Starts -------*/
+
+.bg-buyers,
+.bg-sellers { padding: 50px 15px; }
+.buyers-sellers-hd > h2 { font-size: 2.4rem; }
+.buyers-sellers-hd > p { margin-bottom: 30px; text-align: justify; }
+
+	/*------- Buyers Section Ends -------*/
+
+	/*------- Tag Section Starts -------*/
+
+.tag-listing > li { margin-right: 15px; }
+.tag-listing > li > a { padding: 10px 10px; }
+
+	/*------- Tag Section Ends -------*/
+
+	/*------- Item Ranking Section Starts -------*/
+
+.bg-item-ranking { padding: 50px 15px; }
+
+	/*------- Item Ranking Section Ends -------*/
+
 	/*------- How to Use Section Starts -------*/
 
 .bg-how-to-use { padding: 100px 15px 0; }
