@@ -99,13 +99,75 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Tag Section Ends -------*/
 
+/*------- Item Ranking Section Starts -------*/
+
+.bg-item-ranking { padding: 100px 15px; }
+.box-item-ranking-img { position: relative; }
+.box-item-ranking-img > img { margin-bottom: 15px; width: 100%; }
+.item-ranking-label { background-color: #f00; height: 40px; position: absolute; right: 0; top: 0; width: 30px; }
+.item-ranking-label::before { bottom: 0; content: ""; width: 0; height: 0; border-left: 15px solid transparent; border-right: 15px solid transparent; border-bottom: 15px solid #fff; position: absolute; width: 100%; }
+.item-ranking-label > p { color: #fff; line-height: 25px; text-align: center; }
+.box-item-ranking-hd > h4 { color: #000; font-size: 1.8rem; line-height: 1.4; margin-bottom: 10px; }
+.box-item-ranking-hd > h4 > span { display: block; }
+.box-item-ranking-hd > h5 { color: #7e7e7e; font-size: 1.4rem; margin-bottom: 30px; }
+.ir-star-ratings > li { display: inline-block; margin-right: 5px; }
+.ir-star-ratings > li:last-child { margin-right: 0; }
+.ir-star-ratings > li > a { color: #fd5c65; }
+.item-ranking-pay > p { color: #000; font-size: 1.4rem; }
+
+	/*------- Slick Slider CSS Starts -------*/
+
+.item-ranking-slider .slick-slide { padding: 0 15px; }
+
+	/*------- Slick Slider CSS Ends -------*/
+
+/*------- Item Ranking Section Ends -------*/
+
+/*------- How to Use Section Starts -------*/
+
+.bg-how-to-use { padding: 100px 15px; position: relative; z-index: 1; }
+.bg-how-to-use::after { background-color: #f4f5f7; bottom: 0; content: ""; height: calc(100% - 220px); left: 0; position: absolute; width: 100%; z-index: -1; }
+.box-how-to-see { background-color: #fd5c65; -webkit-border-radius: 0 14px 14px 0; -moz-border-radius: 0 14px 14px 0; -ms-border-radius: 0 14px 14px 0; -o-border-radius: 0 14px 14px 0; border-radius: 0 14px 14px 0; left: 0; padding: 50px 15px; position: absolute; top: 145px; width: 35vw; }
+.box-how-to-see > h2 { align-items: center; color: #fff; font-size: 3rem; display: flex; justify-content: flex-end; }
+.box-how-to-see > h2 > img { margin-right: 10px; }
+.get-strated-content-img { margin-bottom: 100px; }
+.get-strated > h2 { color: #000; font-size: 4rem; margin-bottom: 15px; }
+.get-strated > h3 { color: #000; font-size: 2.4rem; }
+.three-steps-bs > h2 { color: #000; font-size: 3rem; margin-bottom: 50px; }
+.three-steps-buyers > h2 > span { color: #fd5c65; }
+.three-steps-sellers > h2 > span { color: #00b5c2; }
+.box-steps { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; padding: 30px 10px; position: relative; }
+.box-buyers-steps { border: 2px solid #fd5c65; }
+.box-sellers-steps { border: 2px solid #00b5c2; }
+.circle-step { left: -50px; position: absolute; top: -50px; }
+.circle-step > img { width: 100px; }
+.arrow-bs { position: absolute; right: -30%; top: 50%; transform: translateY(-50%); }
+.arrow-bs > img { width: 50px; }
+.box-steps > img { margin: 0 auto 30px; }
+.box-buyers-steps > p,
+.box-sellers-steps > p { color: #fd5c65; font-size: 1.8rem; text-align: center; }
+.box-sellers-steps > p { color: #00b5c2; min-height: 50px; }
+.box-steps > p > span { display: block; }
+.buyers-slider-home .slick-slide,
+.sellers-slider-home .slick-slide { padding: 50px; }
+.new-registration-now > a { background-color: #fd5c65; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; -webkit-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); -moz-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); -ms-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); -o-box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); box-shadow: 7px 7px 14px 0px #00000040, 5px 5px 15px 5px rgba(0,0,0,0); color: #fff; display: inline-block; font-size: 1.8rem; padding: 20px 35px; text-align: center; }
+.new-registration-now > a > span { background-color: #fff; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; color: #fd5c65; display: inline-block; font-size: 1.8rem; margin-right: 10px; padding: 7px 14px; text-align: center; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.new-registration-now > a:hover { background-color: #00b5c2; color: #fff; }
+.new-registration-now > a:hover > span { color: #00b5c2; }
+
+/*------- How to Use Section Ends -------*/
+
 /*------- SenSee Media Section Starts -------*/
 
 .bg-sensee-media { padding: 100px 15px; }
+.item-ranking-heading > h4,
 .sensee-media-heading > h4 { color: #00b5c2; font-size: 1.8rem; margin-bottom: 10px; }
+.item-ranking-heading > h2,
 .sensee-media-heading > h2 { color: #000; font-size: 3rem; margin-bottom: 50px; }
 .box-sensee-media-img { position: relative; }
 .box-sensee-media-img > img { margin-bottom: 15px; width: 100%; }
+.play-icon-circle { background-color: #fff; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; cursor: pointer; height: 50px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 50px; z-index: 1; }
+.play-icon-circle > i { color: #523427; display: block; font-size: 1.8rem; line-height: 50px; text-align: center; }
 .box-sensee-media-hd > p { color: #000; font-size: 1.8rem; margin-bottom: 15px; }
 .box-sensee-media-hd > p:last-child { margin-bottom: 0; }
 
@@ -119,9 +181,12 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .slick-prev::before,
 .slick-next::before { color: #ffffff; content: "\f053"; display: block; font-family: "Font Awesome 5 Free"; font-weight: 900; opacity: 1; -webkit-transition: 0.3s linear; -moz-transition: 0.3s linear; -ms-transition: 0.3s linear; -o-transition: 0.3s linear; transition: 0.3s linear; }
 .slick-prev:hover,
-.slick-next:hover { background-color: #fc7265; }
+.slick-next:hover,
+.slick-prev:focus,
+.slick-next:focus { background-color: #fc7265; }
 .slick-next::before { content: "\f054"; }
-.slick-prev:hover::before { color: #ffffff; }
+.slick-prev:hover::before,
+.slick-prev:focus::before { color: #ffffff; }
 
 	/*------- Slick Slider CSS Ends -------*/
 
