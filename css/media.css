@@ -92,6 +92,13 @@
 
 	/*------- Tag Section Ends -------*/
 
+	/*------- New Items Section Starts -------*/
+
+.tabs-listing > li { font-size: 1.4rem; padding: 15px; }
+.tabs-listing > li > i { padding-right: 0; }
+
+	/*------- New Items Section Ends -------*/
+
 	/*------- Item Ranking Section Starts -------*/
 
 .bg-item-ranking { padding: 50px 15px; }
@@ -247,6 +254,21 @@
 .slick-next { right: -10px; top: 35%; }
 
 	/*------- SenSee Media Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+
+/*------- Home Page Starts -------*/
+
+	/*------- New Items Section Starts -------*/
+
+.slick-prev { left: -10px; }
+.slick-next { right: -10px; }
+
+	/*------- New Items Section Ends -------*/
 
 /*------- Home Page Ends -------*/
 
