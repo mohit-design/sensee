@@ -193,7 +193,10 @@
 
 	/*------- Banner Section Starts -------*/
 
-.banner-info { top: 50%; }
+.banner-info > h1 { font-size: 1.8rem; margin-bottom: 15px; }
+.banner-info > p { font-size: 1.6rem; margin-bottom: 15px; }
+.bg-banner { padding: 225px 0; height: auto; }
+.banner-info { top: 20%; }
 
 	/*------- Banner Section Ends -------*/
 
@@ -232,7 +235,10 @@
 
 	/*------- Banner Section Starts -------*/
 
-.banner-info { top: 50%; }
+.banner-info > h1 { font-size: 1.8rem; margin-bottom: 15px; }
+.banner-info > p { font-size: 1.6rem; margin-bottom: 15px; }
+.bg-banner { padding: 225px 0; height: auto; }
+.banner-info { top: 20%; }
 
 	/*------- Banner Section Ends -------*/
 
