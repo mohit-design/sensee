@@ -27,6 +27,8 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Common CSS Starts -------*/
 
+.no-gutters { margin: 0; }
+.no-gutters > [class*=col] { padding: 0; }
 .flex-align-center-desktop { align-items: center; display: flex; }
 .flex-align-end-desktop { align-items: flex-end; display: flex; }
 .btn-proj { background-color: #fc7265; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; border-radius: 50px; color: #fff; display: inline-block; font-size: 2.4rem; padding: 30px 70px; text-align: center; }
@@ -119,10 +121,43 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 
 /*------- Tag Section Ends -------*/
 
+/*------- New Items Section Starts -------*/
+
+.bg-new-items { padding: 100px 0; }
+.tabs-listing { display: flex; margin-bottom: 100px; }
+.tabs-listing > li { background-color: #fd5c65; color: #fff; cursor: pointer; display: inline-block; font-size: 2.4rem; padding: 30px; text-align: center; width: 33.33%; }
+.tabs-listing > li > i { padding-right: 5px; }
+.tabs-listing > li.active { background-color: #f2f5f9; color: #000; }
+
+	/*------- Slick Slider CSS Starts -------*/
+
+.tab-one-slider .slick-slide,
+.tab-two-slider .slick-slide,
+.tab-three-slider .slick-slide { padding: 0 15px; }
+#tab-one-content-box,
+#tab-two-content-box,
+#tab-three-content-box {
+	display: block!important;
+	height:0;
+	overflow: hidden!important;
+}
+
+#tab-one-content-box.active,
+#tab-two-content-box.active,
+#tab-three-content-box.active {
+	height: auto!important;
+}
+
+	/*------- Slick Slider CSS Ends -------*/
+
+/*------- New Items Section Ends -------*/
+
 /*------- Item Ranking Section Starts -------*/
 
 .bg-item-ranking { padding: 100px 15px; }
+.box-new-items-img,
 .box-item-ranking-img { overflow: hidden; position: relative; }
+.box-new-items-img > img,
 .box-item-ranking-img > img { margin-bottom: 15px; width: 100%; }
 .item-ranking-label { background-color: #f00; clip-path: polygon(50% 0%, 100% 0, 100% 50%, 100% 100%, 50% 75%, 0 100%, 0 0); height: 40px; position: absolute; right: -1px; top: 0; width: 30px; }
 .item-ranking-label-1 { background-color: #e6b422; }
@@ -130,9 +165,12 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 .item-ranking-label-3 { background-color: #815a2b; }
 .item-ranking-label-4 { background-color: #00b5c2; }
 .item-ranking-label > p { color: #fff; line-height: 30px; text-align: center; }
-.box-item-ranking-hd > h4 { color: #000; font-size: 1.8rem; line-height: 1.4; margin-bottom: 10px; }
+.box-new-items-hd > h4,
+.box-item-ranking-hd > h4 { color: #000; font-size: 1.6rem; line-height: 1.4; margin-bottom: 10px; }
+.box-new-items-hd > h4 > span,
 .box-item-ranking-hd > h4 > span { display: block; }
-.box-item-ranking-hd > h5 { color: #7e7e7e; font-size: 1.4rem; margin-bottom: 30px; }
+.box-new-items-hd > h5,
+.box-item-ranking-hd > h5 { color: #7e7e7e; font-size: 1.2rem; margin-bottom: 30px; }
 .ir-star-ratings > li { display: inline-block; }
 .ir-star-ratings > li:last-child { margin-right: 0; }
 .ir-star-ratings > li > a { color: #fd5c65; }
@@ -187,8 +225,10 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s linear; -m
 /*------- SenSee Media Section Starts -------*/
 
 .bg-sensee-media { padding: 100px 15px; }
+.new-items-heading > h4,
 .item-ranking-heading > h4,
 .sensee-media-heading > h4 { color: #00b5c2; font-size: 1.8rem; margin-bottom: 10px; }
+.new-items-heading > h2,
 .item-ranking-heading > h2,
 .sensee-media-heading > h2 { color: #000; font-size: 3rem; margin-bottom: 50px; }
 .box-sensee-media-img { position: relative; }
