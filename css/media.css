@@ -93,7 +93,7 @@
 	/*------- Tag Section Ends -------*/
 
 	/*------- New Items Section Starts -------*/
-
+.bg-new-items .content{padding-top: 50px;padding-bottom: 50px;	}
 .tabs-listing > li { font-size: 1.4rem; padding: 15px; }
 .tabs-listing > li > i { padding-right: 0; }
 
@@ -113,11 +113,11 @@
 .box-how-to-see { -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; padding: 15px; top: 0; width: 75vw; }
 .box-how-to-see > h2 { font-size: 1.8rem; }
 .box-how-to-see > h2 > img { width: 100px; }
-.get-strated-content-img { margin-bottom: 50px; }
+.get-strated-content-img { margin-bottom: 50px; padding-top: 0;	 }
 .get-strated { text-align: center; }
 .get-strated > h2,
 .three-steps-bs > h2 { font-size: 2.4rem; }
-.get-strated > h3 { font-size: 1.8rem; }
+.get-strated > h3 { font-size: 1.5rem; }
 .box-steps { background-color: #fff; padding: 60px 10px 15px; }
 .buyers-slider-home .slick-slide,
 .sellers-slider-home .slick-slide { padding: 65px 15px; }
@@ -159,7 +159,8 @@
 	/*------- Language Education Section Starts -------*/
 
 .lang-education-heading > h2 { font-size: 2.4rem; line-height: 1.7; margin-bottom: 15px; }
-.lang-education-heading > h3 { font-size: 1.8rem; margin-bottom: 30px; }
+.lang-education-heading > h2 span, .lang-education-heading > h3 span{display: block;}
+.lang-education-heading > h3 { font-size: 1.5rem; line-height: 1.8; margin-bottom: 30px; }
 .btn-proj-lang-edu-display { margin-bottom: 50px; }
 .lang-edu-img > img { margin: 0 auto; }
 .lang-edu-img-2 { display: none; }
@@ -168,11 +169,12 @@
 
 	/*------- Footer Section Starts -------*/
 
-.bg-footer { padding: 50px 15px; }
-.footer-heading,
-.footer-listing,
-.footer-social-listing,
-.footer-ppd { display: none; }
+.bg-footer { padding: 30px 15px; }
+.footer-listing > li:last-child { margin-bottom: 15px; }
+.footer-listing > li > a { font-size: 1.4rem; }
+.footer-social-listing { margin-bottom: 15px; text-align: left; }
+.footer-social-listing > li > a > img { width: 25px; }
+.footer-ppd { margin-bottom: 10px; text-align: center; }
 .copyright-info { text-align: center; }
 
 	/*------- Footer Section Ends -------*/

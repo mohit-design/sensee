@@ -15,3 +15,19 @@ $(function() {
     $(".menu-listing-mobile").removeClass("active");
   });
 });
+
+$(function() {
+  // Scroll To Top JS
+  var offset = 200;
+  var duration = 500;
+  $(window).scroll(function() {
+    if($(this).scrollTop() > offset) {
+      $(".scroll-to-top").addClass("active");
+    } else {
+      $(".scroll-to-top").removeClass("active");
+    }
+  });
+  $(".scroll-to-top").click(function() {
+    $('html,body').animate({scrollTop: 0},3500);
+  });
+});
