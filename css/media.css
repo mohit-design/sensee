@@ -24,16 +24,18 @@
 
 	/*------- Mobile Header Section Starts -------*/
 
-.bg-header-mobile { background-color: #fff; display: block; left: 0; position: fixed; top: 0; width: 100%; z-index: 10; }
+.bg-header-mobile { background-color: #fff; display: block; left: 0; padding: 15px; position: fixed; top: 0; width: 100%; z-index: 10; }
 .header-logo-mobile > a { display: inline-block; }
 .header-logo-mobile > a > img { width: 200px; }
+.cbu-listing-mobile > li { display: inline-block; margin-right: 12px; }
+.cbu-listing-mobile > li > a > img { width: 20px; }
 
     /*------- Hamburger Menu CSS Starts -------*/
 
-.burger-menu { background-color: transparent; cursor: pointer; height: 80px; position: relative; width: 80px; }
-.burger-menu span { position: absolute; height: 2px; width: 40px; background-color: #000; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.burger-menu { background-color: transparent; cursor: pointer; height: 40px; position: relative; width: 40px; }
+.burger-menu span { position: absolute; height: 2px; width: 30px; background-color: #000; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
 .burger-menu span::before,
-.burger-menu span::after { content: ""; background-color: #000; height: 2px; width: 40px; position: absolute; right: 0; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.burger-menu span::after { content: ""; background-color: #000; height: 2px; width: 30px; position: absolute; right: 0; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
 .burger-menu span::before { top: -10px; }
 .burger-menu.active span { background-color: transparent; }
 .burger-menu.active span::before { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); width: 25px; }
@@ -54,6 +56,7 @@
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li > a { color: #fff; display: block; font: 18px/1.2 "ChalkBoard-SE-Regular"; text-align: center; }
+.menu-listing-mobile > li > a > img { width: 20px; }
 .fixed-navbar-menu-mobile.active > span::before,
 .fixed-navbar-menu-mobile.active > span::after { height: 50%; -webkit-transition: 0.5s linear 0s; -moz-transition: 0.5s linear 0s; -ms-transition: 0.5s linear 0s; -o-transition: 0.5s linear 0s; transition: 0.5s linear 0s; }
 .menu-listing-close-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; }
@@ -66,6 +69,7 @@
 .bg-banner { background: none; height: auto; margin-top: 80px; padding: 15px; }
 .banner-info { position: static; -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
 .banner-info > h1 { font-size: 22px; line-height: 1.4; padding: 0; }
+.banner-info > h1 > span { display: block; }
 .banner-info > p { font-size: 16px; padding: 0 15px; }
 .banner-info > p > span { display: block; }
 .input-group-search { width: 100%; }
@@ -89,7 +93,7 @@
 	/*------- Tag Section Starts -------*/
 
 .tag-listing > li { float: left; margin: 0 0 10px; width: 50%; word-break: break-all; }
-.tag-listing > li > a { align-items: center; display: flex; height: 90px; justify-content: center; margin: 5px 5px 0; padding: 10px 10px; word-break: break-word; }
+.tag-listing > li > a { align-items: center; -webkit-border-radius: 60px; -moz-border-radius: 60px; -ms-border-radius: 60px; -o-border-radius: 60px; border-radius: 60px; display: flex; height: 90px; justify-content: center; margin: 5px 5px 0; padding: 10px 10px; word-break: break-word; }
 
 	/*------- Tag Section Ends -------*/
 
@@ -98,6 +102,7 @@
 .bg-new-items .content { padding-top: 50px; padding-bottom: 50px;	}
 .tabs-listing > li { font-size: 14px; padding: 15px; }
 .tabs-listing > li > i { padding-right: 0; }
+.item-ranking-slider .slick-slide,
 .tab-one-slider .slick-slide,
 .tab-two-slider .slick-slide,
 .tab-three-slider .slick-slide { padding: 0 40px; }
@@ -198,12 +203,67 @@
 
 	/*------- Common CSS Ends -------*/
 
+	/*------- Desktop Header Section Starts -------*/
+
+.bg-header-desktop { display: none; }
+
+	/*------- Desktop Header Section Ends -------*/
+
+	/*------- BG Blur CSS Starts -------*/
+
+.bg-blur { background-color: #fff; bottom: 0; display: none; height: 100%; left: 0; position: fixed; right: 0; top: 0; width: 100%; z-index: 11; }
+.bg-blur.active { display: block; }
+
+	/*------- BG Blur CSS Ends -------*/
+
+	/*------- Mobile Header Section Starts -------*/
+
+.bg-header-mobile { background-color: #fff; display: block; left: 0; padding: 15px; position: fixed; top: 0; width: 100%; z-index: 10; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { width: 140px; }
+.cbu-listing-mobile > li { display: inline-block; margin-right: 30px; }
+.cbu-listing-mobile > li > a > img { width: 25px; }
+
+    /*------- Hamburger Menu CSS Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 40px; position: relative; width: 40px; }
+.burger-menu span { position: absolute; height: 2px; width: 30px; background-color: #000; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); }
+.burger-menu span::before,
+.burger-menu span::after { content: ""; background-color: #000; height: 2px; width: 30px; position: absolute; right: 0; top: 10px; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); width: 25px; }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); width: 25px; }
+
+    /*------- Hamburger Menu CSS Ends -------*/
+
+	/*------- Mobile Header Section Ends -------*/
+
+  /*------- Mobile Fixed Navigationbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { display: block; }
+.fixed-navbar-menu-mobile > span::before { background-color: #fc7265; content: ""; height: 0; left: 0; position: fixed; top: 0; -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 100%; z-index: 11; }
+.fixed-navbar-menu-mobile > span::after { background-color: #fc7265; bottom: 0; content: ""; height: 0; left: 0; position: fixed; -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 100%; z-index: 11; }
+.menu-listing-close-mobile { background-color: #f56456; height: 40px; line-height: 40px; position: fixed; right: 0; text-align: center; -webkit-transform: translateY(-100%); -moz-transform: translateY(-100%); -ms-transform: translateY(-100%); -o-transform: translateY(-100%); transform: translateY(-100%); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; width: 40px; z-index: 11; }
+.menu-listing-close-mobile > i { color: #fff; font-size: 16px; }
+.menu-listing-mobile { left: 50%; opacity: 0; position: fixed; top: 40%; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); -webkit-transition: 0.5s linear 0s; -moz-transition: 0.5s linear 0s; -ms-transition: 0.5s linear 0s; -o-transition: 0.5s linear 0s; transition: 0.5s linear 0s; visibility: hidden; z-index: 11; }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #fff; display: block; font: 18px/1.2 "ChalkBoard-SE-Regular"; text-align: center; }
+.menu-listing-mobile > li > a > img { width: 20px; }
+.fixed-navbar-menu-mobile.active > span::before,
+.fixed-navbar-menu-mobile.active > span::after { height: 50%; -webkit-transition: 0.5s linear 0s; -moz-transition: 0.5s linear 0s; -ms-transition: 0.5s linear 0s; -o-transition: 0.5s linear 0s; transition: 0.5s linear 0s; }
+.menu-listing-close-mobile.active { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; }
+.menu-listing-mobile.active { opacity: 1; top: 50%; -webkit-transition: 0.5s linear 0.5s; -moz-transition: 0.5s linear 0.5s; -ms-transition: 0.5s linear 0.5s; -o-transition: 0.5s linear 0.5s; transition: 0.5s linear 0.5s; visibility: visible; }
+
+  /*------- Mobile Fixed Navigationbar Menu Section Ends -------*/
+
 	/*------- Banner Section Starts -------*/
 
 .banner-info > h1 { font-size: 18px; margin-bottom: 15px; }
 .banner-info > p { font-size: 16px; margin-bottom: 15px; }
 .bg-banner { padding: 225px 0; height: auto; }
-.banner-info { top: 20%; }
+.banner-info { top: 35%; }
 
 	/*------- Banner Section Ends -------*/
 
@@ -239,6 +299,12 @@
 .btn-proj { padding: 20px 70px; }
 
 	/*------- Common CSS Ends -------*/
+
+	/*------- Desktop Header Section Starts -------*/
+
+.header-listing-desktop > li > a { font-size: 14px; }
+
+	/*------- Desktop Header Section Ends -------*/
 
 	/*------- Banner Section Starts -------*/
 
