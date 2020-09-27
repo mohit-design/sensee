@@ -94,9 +94,13 @@
 	/*------- Tag Section Ends -------*/
 
 	/*------- New Items Section Starts -------*/
-.bg-new-items .content{padding-top: 50px;padding-bottom: 50px;	}
+
+.bg-new-items .content { padding-top: 50px; padding-bottom: 50px;	}
 .tabs-listing > li { font-size: 14px; padding: 15px; }
 .tabs-listing > li > i { padding-right: 0; }
+.tab-one-slider .slick-slide,
+.tab-two-slider .slick-slide,
+.tab-three-slider .slick-slide { padding: 0 40px; }
 
 	/*------- New Items Section Ends -------*/
 
