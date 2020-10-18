@@ -263,7 +263,7 @@
 .banner-info > h1 { font-size: 18px; margin-bottom: 15px; }
 .banner-info > p { font-size: 16px; margin-bottom: 15px; }
 .bg-banner { padding: 225px 0; height: auto; }
-.banner-info { top: 35%; }
+.banner-info { top: 20%; }
 
 	/*------- Banner Section Ends -------*/
 
@@ -310,8 +310,7 @@
 
 .banner-info > h1 { font-size: 18px; margin-bottom: 15px; }
 .banner-info > p { font-size: 16px; margin-bottom: 15px; }
-.bg-banner { padding: 225px 0; height: auto; }
-.banner-info { top: 20%; }
+.banner-info { top: 40%; }
 
 	/*------- Banner Section Ends -------*/
 
